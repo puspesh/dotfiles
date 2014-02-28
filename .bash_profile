@@ -1,4 +1,4 @@
-. ~/.bashrc
+. ~/.bash_prompt
 
 # Load ~/.extra, ~/.bash_prompt, ~/.exports, ~/.aliases and ~/.functions
 # ~/.extra can be used for settings you don’t want to commit
@@ -8,7 +8,7 @@ done
 unset file
 
 # init z   https://github.com/rupa/z
-. ~/Documents/hack/z/z.sh
+. ~/Code/z/z.sh
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
